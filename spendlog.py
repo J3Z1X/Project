@@ -4,7 +4,7 @@ def multiply_price(quantity, price):
 
 def show_purchases():
     print("\n===== Your Purchases =====")
-
+    #MAKE A CSV FILE NAMED "spendlog.csv" to work
     try:
         with open("spendlog.csv", "r") as file:
             for line in file:
